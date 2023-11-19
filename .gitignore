@@ -1,0 +1,4 @@
+node_modules
+.idea
+ag_code/days_log/*
+ag_code/days_log_raw/*

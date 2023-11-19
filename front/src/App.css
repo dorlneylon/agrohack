@@ -1,0 +1,255 @@
+/* .App {
+  text-align: center;
+  max-width: 1000px;
+  max-height: 1000px;
+} */
+
+.leaflet-control-attribution.leaflet-control {
+  display: none !important;
+}
+
+.legenda {
+  position: absolute;
+  background-color: white;
+  /* margin-left: 300px; */
+  margin-top: 80px;
+  margin-left: 10px;
+  /* height: 410px; */
+  width: 380px;
+  padding-left: 120px;
+  z-index: 5;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.p-dropdown-items {
+  width: 380px;
+}
+
+.legenda-text {
+  position: relative;
+  margin-left: 60px;
+  margin-top: -10px;
+}
+
+.p-dropdown-item {
+  height: 30px;
+}
+
+.legenda-red {
+  position: absolute;
+  background-color: #e66465;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-blue {
+  position: absolute;
+  background-color: #9198e5;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-brown {
+  position: absolute;
+  background-color: #a52a2a;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-green {
+  position: absolute;
+  background-color: #3cb371;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-orange {
+  position: absolute;
+  background-color: #ffa500;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-crimson {
+  position: absolute;
+  background-color: #dc143c;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-white {
+  position: absolute;
+  background-color: #ffffff;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-purple {
+  position: absolute;
+  background-color: #800080;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-yellow {
+  position: absolute;
+  background-color: #ffff00;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-cyan {
+  position: absolute;
+  background-color: #00ffff;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-mangenta {
+  position: absolute;
+  background-color: #ff00ff;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+.legenda-gray {
+  position: absolute;
+  background-color: #808080;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 15px;
+}
+
+/* .leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive {
+  filter: brightness(0.3) grayscale(100%);
+} */
+
+.picker {
+  margin-top: 12px;
+  margin-left: 50px;
+  /* padding-left: 10px; */
+  width: 20%;
+  position: absolute;
+  z-index: 5;
+  /* padding-top: -25px; */
+  padding: 5px;
+  border-radius: 10px;
+  /* border-color: gray; */
+  background-color: white;
+  /* height: 200px; */
+}
+
+input {
+  border-color: gray !important;
+}
+
+.css-a643pv-MuiStack-root {
+  padding: 0 !important;
+}
+
+path.kek.leaflet-interactive {
+  color: radial-gradient(#e66465, #9198e5) !important;
+}
+
+.leaflet-container {
+  filter: brightness(4);
+}
+
+img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive {
+  filter: brightness(0.3) grayscale(100%);
+}
+
+/* .sec {
+  margin-top: -20px;
+  margin-left: 320px;
+} */
+
+.blText {
+  font-style: bold 15px;
+  font-weight: bold;
+  color: white;
+  /* color: black; */
+  filter: brightness(0.5);
+}
+
+.gslid {
+  margin-top: 12px;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 20.5%;
+  position: absolute;
+  /* padding-right: 10px; */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+  height: 80px;
+  background-color: white;
+}
+
+span.p-slider-range {
+  background: gray !important;
+}
+
+span.p-slider-handle {
+  border-color: gray;
+}
+
+span.p-slider-handle:active {
+  border-color: gray;
+  color: gray;
+}
+
+.pp-slider-handle-active {
+  color: gray;
+  border-color: gray;
+}
+
+/*
+.kek.leaflet-interactive {
+  filter: blur(100) !important;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+} */
+
